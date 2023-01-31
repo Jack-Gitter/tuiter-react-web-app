@@ -1,0 +1,57 @@
+.float-left { float: left; }
+.bg-gray { background-color: #5A5A5A }
+.bg-black {background-color: black;}
+.border-rounded {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47,51,54);
+    border-radius: 25px;
+}
+
+
+.wg-input-field-style {
+	padding: 5px;
+	padding-left: 35px;
+	width: 90%;
+}
+
+.row {
+	clear: both;
+}
+
+.col-half-page {
+	width: 50%;
+	float: left;
+}
+
+.float-left {
+	float: left;
+}
+
+.img-dimensions {
+	width:15px;
+	height:15px;
+}
+
+.search-image-shift {
+	position: relative;
+	left: 30px;
+	top:3px;
+}
+
+.settings-image {
+	margin-right:30px;
+	margin-top:7px;
+	position: absolute;
+	right:15px;
+}
+
+.div-border {
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(47, 51, 54);
+	padding-top: 10px;
+	padding-bottom: 20px;
+	position: relative;
+	width:80%
+}
