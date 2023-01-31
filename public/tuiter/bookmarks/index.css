@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+  color:white;
+  min-width: 1000px;
+}
+
+.wd-header {
+  margin: 0px;
+  font-size:20px;
+}
+
+.wd-border-div-formatted {
+  padding-top:12px;
+  padding-left:16px;
+  padding-bottom:12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+}
+
+.wd-username {
+  color:#9a9c9a;
+  font-size:13px;
+}

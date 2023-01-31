@@ -1,6 +1,5 @@
 body{
   min-width:1000px;        /* Suppose you want minimum width of 1000px */
-  width:1000px;            /* As IE6 ignores !important it will set width as 1000px; */
 }
 
 .wd-bg-black {
@@ -183,11 +182,10 @@ a {
 
  hr {
    padding: 0px;
-   margin:0px;
    height:10px;
-   width: 970px;
-   position:relative;
-   left:30px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 30px;
    border-width: 0px;
  }
 
