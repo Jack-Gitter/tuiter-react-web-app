@@ -82,10 +82,11 @@ body {
 .wd-rounded-corners-bot {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  width:480px;
 }
 
 .wd-pad-12 {
-  /*padding:12px;*/
+  padding:12px;
 }
 
 .wd-post-desc {
@@ -101,4 +102,8 @@ body {
 .wd-link-img {
   width:15px;
   height:15px;
+}
+
+.wd-padding-top-12 {
+  padding-top: 8px;
 }
