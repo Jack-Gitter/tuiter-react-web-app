@@ -181,3 +181,17 @@ a {
    position:relative;
    top:5px;
  }
+
+ hr {
+   padding: 0px;
+   margin:0px;
+   height:10px;
+   width: 970px;
+   position:relative;
+   left:30px;
+   border-width: 0px;
+ }
+
+ .dark-dark-gray {
+   background-color: #1a1919;
+ }
