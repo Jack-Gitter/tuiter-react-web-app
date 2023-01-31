@@ -25,6 +25,7 @@ body {
   border-width: 1px;
   border-color: rgb(47, 51, 54);
   border-top:none;
+  /*width:600px;*/
 }
 
 .wd-username {
@@ -39,7 +40,7 @@ body {
   height:50px;
   margin-right:12px;
   float:left;
-  margin-bottom:10px;
+  margin-bottom:200px;
 }
 
 .wd-author-name {
@@ -48,4 +49,25 @@ body {
 
 .wd-float-right {
   float:right;
+}
+
+.wd-md-vspace-s {
+  position:relative;
+  top:5px;
+  font-size:15px;
+  max-width: 506px;
+  margin-bottom:16px;
+  margin-right:0px;
+}
+
+.wd-clear {
+  clear:both;
+}
+
+.wd-main-img-content {
+  with:250px;
+  height:250px;
+  border-width: 1px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
