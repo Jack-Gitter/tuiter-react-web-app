@@ -17,8 +17,35 @@ body {
   border-width: 1px;
   border-color: rgb(47, 51, 54);
 }
+.wd-border-div-formatted-topless {
+  padding-top:12px;
+  padding-left:16px;
+  padding-bottom:12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  border-top:none;
+}
 
 .wd-username {
   color:#9a9c9a;
   font-size:13px;
+}
+
+.wd-profile-pic {
+  border-width: 1px;
+  border-radius:24px;
+  width:50px;
+  height:50px;
+  margin-right:12px;
+  float:left;
+  margin-bottom:10px;
+}
+
+.wd-author-name {
+  font-size:15px;
+}
+
+.wd-float-right {
+  float:right;
 }
