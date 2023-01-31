@@ -1,87 +1,175 @@
-.float-left { float: left; }
-.bg-gray { background-color: #5A5A5A }
-.bg-black {background-color: black;}
-.fg-gray { color:#5A5A5A }
-.fg-blue { color: #408ea8 }
-
-.border-rounded {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(47,51,54);
-    border-radius: 25px;
+body{
+  min-width:1000px;        /* Suppose you want minimum width of 1000px */
+  width:1000px;            /* As IE6 ignores !important it will set width as 1000px; */
 }
 
-.input-field {
-	padding-top: 5px;
-	padding-bottom:5px;
-	padding-right:5px;
-	padding-left: 35px;
-	width: 85%;
+.bg-black {
+  background-color: black;
 }
 
-.row {
-	clear: both;
-	margin-left:15px;
+.fg-white {
+  color: white;
+}
+.fg-blue {
+  color:rgb(29,161,242);
+}
+.bg-dark-gray {
+  background-color: #2e2d2d;
+}
+.fg-gray {
+  color: gray;
+}
+.search-bar {
+  border-radius:25px;
+  border-width: 0px;
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-bottom: 10px;
+  margin-left:16px;
+  height:30px;
+  width:85%;
+  color: white;
+}
+.border-div {
+  border-style: solid;
+  border-width: 1px;
+  border-color:rgb(47, 51, 54);
+
+  margin-left:30px;
+  padding-top:8px;
+  padding-bottom:20px;
+  position: relative;
+
+  clear:both;
 }
 
-.col-20 {
-	width: 12%;
-	float: left;
+.border-div-topless {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+
+  margin-left:30px;
+  padding-top:8px;
+  padding-bottom:20px;
+  position: relative;
+  border-top:none;
+
+  clear:both;
 }
 
-.float-left {
-	float: left;
+.nytimes-img {
+  width:15px;
+  height:10px;
+  margin-top:10px;
 }
 
-
-.search-image {
-	width:15px;
-	height:15px;
-	position: relative;
-	left: 30px;
-	top:3px;
+.search-img {
+  width:15px;
+  height:15px;
+  position: absolute;
+  top:15px;
+  left:27px;
 }
 
-.settings-image {
-	width:15px;
-	height:15px;
-	position:absolute;
-	right:12px;
-	top:16px;
-}
-
-.div-border {
-	border-width: 1px;
-	border-style: solid;
-	border-color: rgb(47, 51, 54);
-	border-bottom-width:3px;
-	width:95%;
-	/*height:78px;*/
-	padding-top: 10px;
-	position: relative;
-	left:35px;
-}
-
-.border-bottom {
-	text-decoration: none;
-	border-bottom: 3px solid #408ea8;
-	padding-bottom:10px;
+.settings-img {
+  width:15px;
+  height:15px;
+  float: right;
+  margin-right: 12px;
+  margin-top: 8px;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
+  color: rgb(110, 118, 125);
 }
 
-.headers {
-	padding:16px;
+.tabs {
+  margin-top:20px;
+  margin-left:0px;
 }
 
-.headers2 {
-	margin-left:5%;
+.tab {
+  clear: both;
+  margin-top:100px;
+  margin-left: 0px;
+  font-size: 15px;
+  padding: 16px;
 }
 
-.test {
- 
-	padding: 10px;
+.shift-right {
+  margin-left:50px;
+}
+
+.selected-tab {
+  padding-bottom:17px;
+  border-style: solid;
+  border-width: 3px;
+  border-top: none;
+  border-left:none;
+  border-right:none;
+  border-color:rgb(29,161,242);
+}
+
+.left-margin {
+  margin-left: 16px;
+  padding-top:5px;
+}
+
+.vspace-s {
+  margin:3px;
+}
+
+.elipses-img {
+  width:15px;
+  height:15px;
+  float: right;
+  margin-right:15px;
+}
+
+.elipses-blue-img {
+  width:15px;
+  height:15px;
+  clear: both;
+  float: right;
+  position:relative;
+  top:5px;
+  margin-right:15px;
+
 
 }
+ .font-size-s {
+    font-size:13px;
+   color:rgb(110,118,125);
+ }
+
+ .font-size-m {
+   font-size:13px;
+   margin-left: 10px;
+ }
+
+ .checkmark {
+   width:15px;
+   height:10px;
+   position:relative;
+   top:2px;
+ }
+
+ .description {
+   position:relative;
+   top:5px;
+ }
+
+ .news-img {
+   width: 100px;
+   height: 100px;
+   float: right;
+   border-radius:25px;
+   position:relative;
+   right:16px;
+   top:5px;
+ }
+
+ .min-div-size-100 {
+   min-height: 95px;
+ }
