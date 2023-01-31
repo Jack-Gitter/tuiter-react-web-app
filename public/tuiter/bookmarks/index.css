@@ -19,7 +19,7 @@ body {
   padding-bottom:12px;
   border-style: solid;
   border-width: 1px;
-  width:600px;
+  width:584px;
   border-color: rgb(47, 51, 54);
 }
 .wd-border-div-formatted-topless {
@@ -30,7 +30,8 @@ body {
   border-width: 1px;
   border-color: rgb(47, 51, 54);
   border-top:none;
-  width:600px;
+  width:584px;
+
 }
 
 .wd-username {
@@ -77,6 +78,7 @@ body {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-color: rgb(47, 51, 54);
+  margin-right:16px;
 }
 
 
