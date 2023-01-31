@@ -174,3 +174,8 @@ a {
  .min-div-size-100 {
    min-height: 95px;
  }
+
+ .downshift {
+   position:relative;
+   top:5px;
+ }
