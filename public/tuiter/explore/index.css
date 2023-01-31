@@ -26,7 +26,6 @@
 	width: 20%;
 	float: left;
 	height:30px;
-	text-align: center;
 }
 
 .float-left {
@@ -69,4 +68,8 @@
 
 a {
 	text-decoration: none;
+}
+
+.headers {
+	padding:16px;
 }
