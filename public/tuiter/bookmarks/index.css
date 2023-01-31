@@ -44,7 +44,7 @@ body {
   height:50px;
   margin-right:12px;
   float:left;
-  margin-bottom:500px;
+  margin-bottom:700px;
 }
 
 .wd-author-name {
@@ -83,6 +83,7 @@ body {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   width:480px;
+  margin-bottom:12px;
 }
 
 .wd-pad-12 {
@@ -106,4 +107,21 @@ body {
 
 .wd-padding-top-12 {
   padding-top: 8px;
+}
+
+.wd-speech-img {
+  width:15px;
+  height:15px;
+}
+
+.wd-margin-right {
+  margin-right: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wd-even-spaced {
+  margin-right:75px;
 }
