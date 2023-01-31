@@ -125,3 +125,12 @@ a {
 .wd-even-spaced {
   margin-right:75px;
 }
+
+.wd-fg-red {
+  color:red;
+}
+
+.wd-shift-up {
+  position:relative;
+  bottom:1px;
+}
