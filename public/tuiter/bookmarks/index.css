@@ -31,7 +31,6 @@ body {
   border-color: rgb(47, 51, 54);
   border-top:none;
   width:584px;
-
 }
 
 .wd-username {
@@ -61,7 +60,6 @@ body {
   position:relative;
   top:5px;
   font-size:15px;
-  max-width: 506px;
   margin-bottom:16px;
   margin-right:0px;
 }
@@ -136,4 +134,8 @@ a {
 .wd-shift-up {
   position:relative;
   bottom:1px;
+}
+
+.wd-max-width-556 {
+  max-width: 556px;
 }
