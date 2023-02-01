@@ -139,3 +139,16 @@ a {
 .wd-max-width-556 {
   max-width: 556px;
 }
+
+.wd-icon-size {
+  font-size:15px;
+}
+
+.wd-icon-size-m {
+  font-size:23px;
+}
+
+.wd-comment-img-vshift {
+  position:relative;
+  top:5px;
+}
