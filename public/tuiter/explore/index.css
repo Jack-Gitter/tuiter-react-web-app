@@ -51,6 +51,8 @@
   float: left;
 }
 
-.v-align-middle {
-  vertical-align: middle;
+.follow-button {
+  float: right;
+  position:relative;
+  top:12px;
 }
