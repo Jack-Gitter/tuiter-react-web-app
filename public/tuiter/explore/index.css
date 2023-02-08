@@ -56,3 +56,12 @@
   position:relative;
   top:12px;
 }
+
+.bird {
+  position:relative;
+  top:3px;
+}
+
+.border-color {
+  border-color: #6c757d;
+}
