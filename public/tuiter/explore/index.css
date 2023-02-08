@@ -6,3 +6,31 @@
 .margin-right-sm {
   margin-right: 2%;
 }
+
+.box-shadow-remove {
+  box-shadow: none !important;
+}
+
+.font-size-large {
+}
+
+.overlay-placement {
+  bottom: 100%;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.float-right {
+  float: right;
+}
+
+.react-img {
+  width:100px;
+  height:100px;
+}
