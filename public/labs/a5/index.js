@@ -230,10 +230,10 @@ const init = () => {
 `);
   const child2 = $("#child-2");
   const parent1 =
-   child2.parents("#parent");
-parent1
-   .css('background-color', 'red')
-   .css('color', 'white');
+      child2.parents("#parent");
+  parent1
+  .css('background-color', 'red')
+  .css('color', 'white');
 
   const parent = $("#parent");
   const child = parent.find("#child-2");
