@@ -13,7 +13,7 @@ const PostSummaryItem = (post) => {
     <br>
     <span class="font-weight-bold"><b>${userName}</b></span>
     <i class="fa-solid fa-circle-check"></i>
-    <span class="text-secondary">- ${time}</span>
+    <span class="text-secondary"> - ${time}</span>
     <br>
     <span><b>${title}</b></span>
   </div>
