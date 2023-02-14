@@ -78,14 +78,10 @@
 
 .move-to-front {
   z-index:100;
-  top:11px;
+  top:3px;
 }
 
 .selected-border {
-  border-width: 1px !important;
-  border-bottom-width: 3px !important;
-  border-color: #e0e0de !important;
-  border-bottom-color: white !important;
-  border-style: solid !important;
-  border-radius: 0px;
+  background-color: #4dcae3 !important;
+  color:white !important;
 }
