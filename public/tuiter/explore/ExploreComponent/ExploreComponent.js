@@ -7,7 +7,8 @@ const ExploreComponent = () => {
     <div class="row">
         <div class="col col-11">
         <span class="input-group">
-        <span class="input-group-text border border-right-0 border-rounded border-color bg-white"><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span class="input-group-text border-right-0 border-rounded border-color bg-white"><i class="c-black fa-solid fa-magnifying-glass"></i></span>
+        
         <input class="form-control border border-start-0 box-shadow-remove border-color border-rounded" placeholder="Search Tuiter"></input>
          </span>
         </div>
