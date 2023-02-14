@@ -1,7 +1,7 @@
 const NavigationSidebar = () => {
   return(`
    <div class="list-group">
-    <a class="list-group-item" href="/">
+    <a class="list-group-item" href="#">
     <i class="fab fa-twitter"></i></a>
     <a class="list-group-item list-group-item-action" href="#"><i class=" fa-solid fa-house me-2"></i><span class="d-none d-xl-inline">Home</span></a>
     <a class="list-group-item list-group-item-action active" href="#"><i class="fa-solid fa-hashtag me-2"></i><span class="d-none d-xl-inline">Explore</span></a>
