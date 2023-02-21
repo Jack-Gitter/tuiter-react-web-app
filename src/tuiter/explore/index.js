@@ -5,7 +5,7 @@ const ExploreComponent = () => {
   return(
       <>
         <div className="row">
-          <div className="col-11">
+          <div className="col-11 mb-1">
             <div className="position-relative">
             <input placeholder="Search Tuiter"
                    className="form-control rounded-pill ps-5"/>
