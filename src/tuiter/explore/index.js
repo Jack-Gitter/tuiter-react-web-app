@@ -5,11 +5,13 @@ const ExploreComponent = () => {
   return(
       <>
         <div className="row">
-          <div className="col-11 position-relative">
-            <i className="bi bi-search position-absolute
-                       wd-nudge-up"></i>
+          <div className="col-11">
+            <div className="position-relative">
             <input placeholder="Search Tuiter"
                    className="form-control rounded-pill ps-5"/>
+            <i className="bi bi-search position-absolute
+                       wd-nudge-down"></i>
+            </div>
           </div>
           <div className="col-1">
             <i className="wd-bottom-4 text-primary float-end bi

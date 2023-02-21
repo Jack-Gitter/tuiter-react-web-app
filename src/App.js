@@ -4,7 +4,6 @@ import Tuiter from "./tuiter";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 import React from "react";
-import 'font-awesome/css/font-awesome.min.css';
 
 
 function App() {
