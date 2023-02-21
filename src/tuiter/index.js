@@ -14,6 +14,7 @@ function Tuiter() {
           <ExploreComponent/>
         </div>
         <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+
           <WhoToFollowList/>
         </div>
       </div>
