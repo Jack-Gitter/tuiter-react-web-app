@@ -3,6 +3,8 @@ import Styles from "./styles";
 import ConditionalOutput
   from "./conditional-output";
 import React from "react";
+import TodoItem from "./todo/todo-item";
+import TodoList from "./todo/todo-List";
 
 function Assignment6() {
   return (
@@ -11,6 +13,8 @@ function Assignment6() {
         <ConditionalOutput/>
         <Styles/>
         <Classes/>
+        <TodoItem/>
+        <TodoList/>
       </div>
   );
 }
