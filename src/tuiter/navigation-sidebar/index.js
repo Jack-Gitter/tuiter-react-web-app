@@ -6,41 +6,39 @@ const NavigationSidebar = (
     }
 ) => {
   return (
+      <>
       <div className="list-group">
-        <a className="list-group-item">Tuiter</a>
-        <a className={`list-group-item
-                    ${active === 'home'?'active':''}`}>
-          Home
-        </a>
-        <a className={`list-group-item
-                    ${active === 'explore'?'active':''}`}>
-          Explore
-        </a>
-        <a className={`list-group-item
-                    ${active === 'notifications'?'active':''}`}>
-          Notifications
-        </a>
-        <a className={`list-group-item
-                    ${active === 'messages'?'active':''}`}>
-          Messages
-        </a>
-        <a className={`list-group-item
-                    ${active === 'bookmarks'?'active':''}`}>
-          Bookmarks
-        </a>
-        <a className={`list-group-item
-                    ${active === 'lists'?'active':''}`}>
-          Lists
-        </a>
-        <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
-          Profile
-        </a>
-        <a className={`list-group-item
-                    ${active === 'more'?'active':''}`}>
-          More
-        </a>
+        <a className="list-group-item" href="#">
+          <i className="fa fa-twitter"></i></a>
+        <a className={`list-group-item list-group-item-action ${active === 'home' ? 'active': ''}`} href="#"><i
+            className="fa fa-solid fa-arrow-right me-2"></i><span
+            className="d-none d-xl-inline">Home</span></a>
+        <a className={`list-group-item list-group-item-action ${active === 'explore' ? 'active': ''}`} href="#"><i
+            className="fa fa-solid fa-hashtag me-2"></i><span
+            className="d-none d-xl-inline">Explore</span></a>
+        <a className={`list-group-item list-group-item-action ${active === 'notifications' ? 'active': ''}`} href="#"><i
+            className="fa fa-solid fa-bell me-2"></i><span
+            className="d-none d-xl-inline">Notifications</span></a>
+        <a className={`list-group-item list-group-item-action ${active === 'messages' ? 'active': ''}`} href="#"><i
+            className="fa fa-solid fa-envelope me-2"></i><span
+            className="d-none d-xl-inline">Messages</span></a>
+        <a className={`list-group-item list-group-item-action ${active === 'bookmarks' ? 'active': ''}`} href="#"><i
+            className="fa fa-solid fa-bookmark me-2"></i><span
+            className="d-none d-xl-inline">Bookmarks</span></a>
+        <a className={`list-group-item list-group-item-action ${active === 'lists' ? 'active': ''}`} href="#"><i
+            className="fa fa-solid fa-list-ul me-2"></i><span
+            className="d-none d-xl-inline">Lists</span></a>
+        <a className={`list-group-item list-group-item-action ${active === 'profile' ? 'active': ''}`} href="#"><i
+            className="fa fa-solid fa-user me-2"></i><span
+            className="d-none d-xl-inline">Profile</span></a>
+        <a className={`list-group-item list-group-item-action ${active === 'more' ? 'active': ''}`} href="#"><i
+            className="fa fa-solid fa-caret-up me-2"></i><span
+            className="d-none d-xl-inline">More</span></a>
       </div>
+  <div className="d-grid mt-2">
+    <a href="#" className="btn btn-primary btn-block rounded-pill">Tweet</a>
+  </div>
+        </>
   );
 };
 export default NavigationSidebar;
