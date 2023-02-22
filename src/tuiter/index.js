@@ -20,4 +20,4 @@ function Tuiter() {
   );
 }
 
-export default Tuiter
+export default Tuiter;
